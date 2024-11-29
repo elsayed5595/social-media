@@ -164,6 +164,9 @@ btnLogin.addEventListener("click", () => {
   //remove data to localStorage
      localStorage.removeItem("token");
      localStorage.removeItem("user");
+     localStorage.removeItem("idAuthor");
+     
+   
      checktokenUsre();
     
      setupUI();
